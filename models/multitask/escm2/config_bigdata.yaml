@@ -16,7 +16,7 @@
 runner:
   train_data_dir: "../../../datasets/ali-ccp/train_data"
   train_reader_path: "escm_reader" # importlib format
-  use_gpu: True
+  use_gpu: False
   use_auc: True
   auc_num: 2
   train_batch_size: 1024
